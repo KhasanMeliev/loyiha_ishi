@@ -83,7 +83,7 @@ export const Stick = styled.div`
 
 export const Rules = styled.div`
   width: 90%;
-  height: 450px;
+  height: 360px;
   background-color: #1e2121;
 
   p {
@@ -96,7 +96,7 @@ export const Rules = styled.div`
 
 export const Red = styled.div`
   width: 100%;
-  height: 150px;
+  height: 120px;
   background-color: #1e2121;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ export const Red = styled.div`
 `;
 export const Green = styled.div`
   width: 100%;
-  height: 150px;
+  height: 120px;
   background-color: #1e2121;
   display: flex;
   align-items: center;
@@ -129,7 +129,7 @@ export const Green = styled.div`
 
 export const Yellow = styled.div`
   width: 100%;
-  height: 150px;
+  height: 120px;
   background-color: #1e2121;
   display: flex;
   align-items: center;
