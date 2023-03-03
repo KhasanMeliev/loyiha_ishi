@@ -82,7 +82,7 @@ export const Stick = styled.div`
 `;
 
 export const Rules = styled.div`
-  width: 400px;
+  width: 90%;
   height: 450px;
   background-color: #1e2121;
 
@@ -95,7 +95,7 @@ export const Rules = styled.div`
 `;
 
 export const Red = styled.div`
-  width: 400px;
+  width: 100%;
   height: 150px;
   background-color: #1e2121;
   display: flex;
@@ -111,7 +111,7 @@ export const Red = styled.div`
   }
 `;
 export const Green = styled.div`
-  width: 400px;
+  width: 100%;
   height: 150px;
   background-color: #1e2121;
   display: flex;
@@ -128,7 +128,7 @@ export const Green = styled.div`
 `;
 
 export const Yellow = styled.div`
-  width: 400px;
+  width: 100%;
   height: 150px;
   background-color: #1e2121;
   display: flex;
