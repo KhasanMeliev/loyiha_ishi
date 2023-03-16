@@ -1,10 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Traffic from "./traffic/Traffic";
+import Enter from "./Enter/Enter";
+import Square from "./Square/Square";
+import Rectangle from "./Rectangle/Rectangle";
+import Quadratic from "./Quadratic/Quadratic";
 
 function App() {
   return (
     <div className="App">
-      <Traffic />
+      <Routes>
+        <Route path="/" element={<Enter />} />
+        <Route path="/square" element={<Square />} />
+        <Route path="/rectangle" element={<Rectangle />} />
+        <Route path="/quadratic" element={<Quadratic />} />
+      </Routes>
     </div>
   );
 }
