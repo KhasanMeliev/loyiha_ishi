@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,18 +20,18 @@ export const Texts = styled.div`
   ul {
     margin-top: 20px;
     color: yellow;
-    font-size: 30px;
+    font-size: 25px;
   }
   img {
-    width: 420px;
+    width: 400px;
     margin-top: 20px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
   }
   p {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     margin: 5px;
     margin-top: 20px;
@@ -43,7 +44,7 @@ export const SolveProblem = styled.div`
   flex-direction: column;
   gap: 15px;
   h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
   }
   input {
@@ -58,7 +59,7 @@ export const SolveProblem = styled.div`
 
   p {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 `;
